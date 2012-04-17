@@ -1,0 +1,173 @@
+body, div, span, p{
+		padding:0 0;
+}
+
+.msg{
+		width:500px;
+		background-color:#5CB3FF; 
+		font-size: medium; 
+		font-style: italic; 
+		font-family: comic sans;
+		border:1px solid black;
+}
+
+.err{
+	color: red;
+	background-color:#FFE87C;
+	border:1px solid red;
+}
+
+
+.pagewrapper{
+	background-color:darkseegreen1r;
+	margin: 0 auto 2.5em;
+	width: 820px;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+#header{
+	background-color:turquoise;
+	height:2.5em;
+}
+
+.logodiv{
+	display:table-cell;
+	background-color:darkgreen;
+	width:100px;
+	float:left;
+	height:inherit;
+}
+
+.logodiv a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.servertime{
+	float:right;
+}
+
+#mainbody, #mainbody.div{
+	margin: 0 auto;
+}
+
+.profiledesc{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:red;
+	width:500px;
+	font-family:comic sans;
+}
+
+.logout{
+	position:relative;
+}
+
+#header{
+}
+
+#header .headimg{
+	position:relative
+}
+
+.posts{
+	position:relative;
+	width:500px;
+}
+
+.newpost{
+	position:relative;
+}
+
+.post {
+
+	width:inherit;
+	border:1px solid #0CF;
+}
+
+.postheadimg{
+	margin:9px;
+}
+
+.postheadimg, .postheadimg img{
+	width:4em;
+	height:4em;
+	float:left;
+}
+
+.post, .story {
+border-bottom: 1px solid #D1D9F0;
+margin-bottom: 5px;
+}
+
+.entry{
+	display:table-cell;
+	position:static;
+}
+
+.comment{
+	min-height:2em;
+	border-bottom:1px solid grey;
+	margin-bottom:2px;
+}
+
+.comments{
+	background-color:#CCCCCC;
+	height:auto;
+	width:400px;
+	margin-bottom:5px;
+}
+
+.headimg, .headimg img{
+	width:2em;
+	height:2em;
+	float:left;
+}
+
+.headimg{
+	margin:4px 2px;
+}
+
+.del{
+	float:right;
+	position:static;
+}
+
+.commentcontent{
+	display:table-cell;
+}
+
+.commentcontent span{
+	word-wrap:break-word;
+}
+
+.commentstat{
+	display:table-cell;
+	color:#555;
+}
+
+.addnewcomment #newcomment{
+	width:80%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+
+.friendlist{
+	width:300px;
+}
+
+.friendlist li{
+	margin: 0 auto;
+	margin-bottom:3px;
+	position:static;
+	display:block;
+}
+
+.friend{
+	border:1px solid black;
+	display:table-cell;
+	width:250px;
+}
